@@ -7,4 +7,4 @@
 - 工程基于iOS 3D地图SDK实现
 
 ## 效果图如下 ##
-* ![Screenshot](pictures/screenshot01.PNG "Case01")
+* ![Screenshot](pictures/screenshot01.png "Case01")
