@@ -1,0 +1,7 @@
+target 'iOS-map-rotation-effect' do
+  pod 'AMap3DMap'
+end
+
+target 'iOS-map-rotation-effect-Swift' do
+  pod 'AMap3DMap'
+end

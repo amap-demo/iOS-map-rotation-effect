@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019CDEF8D89E4CBF6A7DF00A /* libPods-iOS-map-rotation-effect-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C28F8F68D2A3D1079BAE16 /* libPods-iOS-map-rotation-effect-Swift.a */; };
+		192D778D1E977C53006A54F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 192D778C1E977C53006A54F6 /* main.m */; };
+		192D77901E977C53006A54F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 192D778F1E977C53006A54F6 /* AppDelegate.m */; };
+		192D77931E977C53006A54F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192D77921E977C53006A54F6 /* ViewController.m */; };
+		192D77961E977C53006A54F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192D77941E977C53006A54F6 /* Main.storyboard */; };
+		192D77981E977C53006A54F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192D77971E977C53006A54F6 /* Assets.xcassets */; };
+		192D779B1E977C53006A54F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192D77991E977C53006A54F6 /* LaunchScreen.storyboard */; };
+		192D77A91E977CD8006A54F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D77A81E977CD8006A54F6 /* AppDelegate.swift */; };
+		192D77AB1E977CD8006A54F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D77AA1E977CD8006A54F6 /* ViewController.swift */; };
+		192D77AE1E977CD8006A54F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192D77AC1E977CD8006A54F6 /* Main.storyboard */; };
+		192D77B01E977CD8006A54F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192D77AF1E977CD8006A54F6 /* Assets.xcassets */; };
+		192D77B31E977CD8006A54F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192D77B11E977CD8006A54F6 /* LaunchScreen.storyboard */; };
+		192D77BF1E977CEA006A54F6 /* iOS_map_rotation_effectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 192D77BE1E977CEA006A54F6 /* iOS_map_rotation_effectUITests.m */; };
+		3F5BA389F6D4BC7AA58E657E /* libPods-iOS-map-rotation-effect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB18283F3417D640F896981D /* libPods-iOS-map-rotation-effect.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		192D77C11E977CEA006A54F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 192D77801E977C53006A54F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 192D77871E977C53006A54F6;
+			remoteInfo = "iOS-map-rotation-effect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054E706FE910ABBE1E068200 /* Pods-iOS-map-rotation-effect-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-map-rotation-effect-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-map-rotation-effect-Swift/Pods-iOS-map-rotation-effect-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		192D77881E977C53006A54F6 /* iOS-map-rotation-effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-map-rotation-effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		192D778C1E977C53006A54F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		192D778E1E977C53006A54F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		192D778F1E977C53006A54F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		192D77911E977C53006A54F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		192D77921E977C53006A54F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		192D77951E977C53006A54F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		192D77971E977C53006A54F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		192D779A1E977C53006A54F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		192D779C1E977C53006A54F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192D77A61E977CD8006A54F6 /* iOS-map-rotation-effect-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-map-rotation-effect-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		192D77A81E977CD8006A54F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		192D77AA1E977CD8006A54F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		192D77AD1E977CD8006A54F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		192D77AF1E977CD8006A54F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		192D77B21E977CD8006A54F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		192D77B41E977CD8006A54F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192D77BC1E977CEA006A54F6 /* iOS-map-rotation-effectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-map-rotation-effectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		192D77BE1E977CEA006A54F6 /* iOS_map_rotation_effectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_map_rotation_effectUITests.m; sourceTree = "<group>"; };
+		192D77C01E977CEA006A54F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192D77C61E977D48006A54F6 /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		9055976D751DA4CB1660EBFD /* Pods-iOS-map-rotation-effect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-map-rotation-effect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-map-rotation-effect/Pods-iOS-map-rotation-effect.debug.xcconfig"; sourceTree = "<group>"; };
+		B2990A759D484ED0FDD32B15 /* Pods-iOS-map-rotation-effect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-map-rotation-effect.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-map-rotation-effect/Pods-iOS-map-rotation-effect.release.xcconfig"; sourceTree = "<group>"; };
+		BB3412B037B8AAD25A72D7D7 /* Pods-iOS-map-rotation-effect-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-map-rotation-effect-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-map-rotation-effect-Swift/Pods-iOS-map-rotation-effect-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		C4C28F8F68D2A3D1079BAE16 /* libPods-iOS-map-rotation-effect-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-map-rotation-effect-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB18283F3417D640F896981D /* libPods-iOS-map-rotation-effect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-map-rotation-effect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		192D77851E977C53006A54F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5BA389F6D4BC7AA58E657E /* libPods-iOS-map-rotation-effect.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192D77A31E977CD8006A54F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019CDEF8D89E4CBF6A7DF00A /* libPods-iOS-map-rotation-effect-Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192D77B91E977CEA006A54F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		192D777F1E977C53006A54F6 = {
+			isa = PBXGroup;
+			children = (
+				192D778A1E977C53006A54F6 /* iOS-map-rotation-effect */,
+				192D77A71E977CD8006A54F6 /* iOS-map-rotation-effect-Swift */,
+				192D77BD1E977CEA006A54F6 /* iOS-map-rotation-effectUITests */,
+				192D77891E977C53006A54F6 /* Products */,
+				809BB9340033E309CAABD40D /* Pods */,
+				FAE9FE97356E061C86B89479 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		192D77891E977C53006A54F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				192D77881E977C53006A54F6 /* iOS-map-rotation-effect.app */,
+				192D77A61E977CD8006A54F6 /* iOS-map-rotation-effect-Swift.app */,
+				192D77BC1E977CEA006A54F6 /* iOS-map-rotation-effectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		192D778A1E977C53006A54F6 /* iOS-map-rotation-effect */ = {
+			isa = PBXGroup;
+			children = (
+				192D778E1E977C53006A54F6 /* AppDelegate.h */,
+				192D778F1E977C53006A54F6 /* AppDelegate.m */,
+				192D77911E977C53006A54F6 /* ViewController.h */,
+				192D77921E977C53006A54F6 /* ViewController.m */,
+				192D77941E977C53006A54F6 /* Main.storyboard */,
+				192D77971E977C53006A54F6 /* Assets.xcassets */,
+				192D77991E977C53006A54F6 /* LaunchScreen.storyboard */,
+				192D779C1E977C53006A54F6 /* Info.plist */,
+				192D778B1E977C53006A54F6 /* Supporting Files */,
+			);
+			path = "iOS-map-rotation-effect";
+			sourceTree = "<group>";
+		};
+		192D778B1E977C53006A54F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				192D778C1E977C53006A54F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		192D77A71E977CD8006A54F6 /* iOS-map-rotation-effect-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				192D77C61E977D48006A54F6 /* BridgeHeader.h */,
+				192D77A81E977CD8006A54F6 /* AppDelegate.swift */,
+				192D77AA1E977CD8006A54F6 /* ViewController.swift */,
+				192D77AC1E977CD8006A54F6 /* Main.storyboard */,
+				192D77AF1E977CD8006A54F6 /* Assets.xcassets */,
+				192D77B11E977CD8006A54F6 /* LaunchScreen.storyboard */,
+				192D77B41E977CD8006A54F6 /* Info.plist */,
+			);
+			path = "iOS-map-rotation-effect-Swift";
+			sourceTree = "<group>";
+		};
+		192D77BD1E977CEA006A54F6 /* iOS-map-rotation-effectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				192D77BE1E977CEA006A54F6 /* iOS_map_rotation_effectUITests.m */,
+				192D77C01E977CEA006A54F6 /* Info.plist */,
+			);
+			path = "iOS-map-rotation-effectUITests";
+			sourceTree = "<group>";
+		};
+		809BB9340033E309CAABD40D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9055976D751DA4CB1660EBFD /* Pods-iOS-map-rotation-effect.debug.xcconfig */,
+				B2990A759D484ED0FDD32B15 /* Pods-iOS-map-rotation-effect.release.xcconfig */,
+				054E706FE910ABBE1E068200 /* Pods-iOS-map-rotation-effect-Swift.debug.xcconfig */,
+				BB3412B037B8AAD25A72D7D7 /* Pods-iOS-map-rotation-effect-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAE9FE97356E061C86B89479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB18283F3417D640F896981D /* libPods-iOS-map-rotation-effect.a */,
+				C4C28F8F68D2A3D1079BAE16 /* libPods-iOS-map-rotation-effect-Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		192D77871E977C53006A54F6 /* iOS-map-rotation-effect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192D779F1E977C53006A54F6 /* Build configuration list for PBXNativeTarget "iOS-map-rotation-effect" */;
+			buildPhases = (
+				0FC745A6F4A2FB65ECAC171E /* [CP] Check Pods Manifest.lock */,
+				192D77841E977C53006A54F6 /* Sources */,
+				192D77851E977C53006A54F6 /* Frameworks */,
+				192D77861E977C53006A54F6 /* Resources */,
+				35BB3E7507BCE0991D2C034A /* [CP] Embed Pods Frameworks */,
+				7BDDDA3609FD7BA5AAC7B895 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-map-rotation-effect";
+			productName = "iOS-map-rotation-effect";
+			productReference = 192D77881E977C53006A54F6 /* iOS-map-rotation-effect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		192D77A51E977CD8006A54F6 /* iOS-map-rotation-effect-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192D77B71E977CD8006A54F6 /* Build configuration list for PBXNativeTarget "iOS-map-rotation-effect-Swift" */;
+			buildPhases = (
+				943A1818BF9B53EA7B8C0B3F /* [CP] Check Pods Manifest.lock */,
+				192D77A21E977CD8006A54F6 /* Sources */,
+				192D77A31E977CD8006A54F6 /* Frameworks */,
+				192D77A41E977CD8006A54F6 /* Resources */,
+				C91D01FDBDBBB9BF77107C04 /* [CP] Embed Pods Frameworks */,
+				467A71D79034F2398E2605A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-map-rotation-effect-Swift";
+			productName = "iOS-map-rotation-effect-Swift";
+			productReference = 192D77A61E977CD8006A54F6 /* iOS-map-rotation-effect-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		192D77BB1E977CEA006A54F6 /* iOS-map-rotation-effectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192D77C31E977CEA006A54F6 /* Build configuration list for PBXNativeTarget "iOS-map-rotation-effectUITests" */;
+			buildPhases = (
+				192D77B81E977CEA006A54F6 /* Sources */,
+				192D77B91E977CEA006A54F6 /* Frameworks */,
+				192D77BA1E977CEA006A54F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				192D77C21E977CEA006A54F6 /* PBXTargetDependency */,
+			);
+			name = "iOS-map-rotation-effectUITests";
+			productName = "iOS-map-rotation-effectUITests";
+			productReference = 192D77BC1E977CEA006A54F6 /* iOS-map-rotation-effectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		192D77801E977C53006A54F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Amap;
+				TargetAttributes = {
+					192D77871E977C53006A54F6 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Automatic;
+					};
+					192D77A51E977CD8006A54F6 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Automatic;
+					};
+					192D77BB1E977CEA006A54F6 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 192D77871E977C53006A54F6;
+					};
+				};
+			};
+			buildConfigurationList = 192D77831E977C53006A54F6 /* Build configuration list for PBXProject "iOS-map-rotation-effect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 192D777F1E977C53006A54F6;
+			productRefGroup = 192D77891E977C53006A54F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				192D77871E977C53006A54F6 /* iOS-map-rotation-effect */,
+				192D77A51E977CD8006A54F6 /* iOS-map-rotation-effect-Swift */,
+				192D77BB1E977CEA006A54F6 /* iOS-map-rotation-effectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		192D77861E977C53006A54F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192D779B1E977C53006A54F6 /* LaunchScreen.storyboard in Resources */,
+				192D77981E977C53006A54F6 /* Assets.xcassets in Resources */,
+				192D77961E977C53006A54F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192D77A41E977CD8006A54F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192D77B31E977CD8006A54F6 /* LaunchScreen.storyboard in Resources */,
+				192D77B01E977CD8006A54F6 /* Assets.xcassets in Resources */,
+				192D77AE1E977CD8006A54F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192D77BA1E977CEA006A54F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FC745A6F4A2FB65ECAC171E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35BB3E7507BCE0991D2C034A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-map-rotation-effect/Pods-iOS-map-rotation-effect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		467A71D79034F2398E2605A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-map-rotation-effect-Swift/Pods-iOS-map-rotation-effect-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BDDDA3609FD7BA5AAC7B895 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-map-rotation-effect/Pods-iOS-map-rotation-effect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		943A1818BF9B53EA7B8C0B3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C91D01FDBDBBB9BF77107C04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-map-rotation-effect-Swift/Pods-iOS-map-rotation-effect-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		192D77841E977C53006A54F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192D77931E977C53006A54F6 /* ViewController.m in Sources */,
+				192D77901E977C53006A54F6 /* AppDelegate.m in Sources */,
+				192D778D1E977C53006A54F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192D77A21E977CD8006A54F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192D77AB1E977CD8006A54F6 /* ViewController.swift in Sources */,
+				192D77A91E977CD8006A54F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192D77B81E977CEA006A54F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192D77BF1E977CEA006A54F6 /* iOS_map_rotation_effectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		192D77C21E977CEA006A54F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 192D77871E977C53006A54F6 /* iOS-map-rotation-effect */;
+			targetProxy = 192D77C11E977CEA006A54F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		192D77941E977C53006A54F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192D77951E977C53006A54F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		192D77991E977C53006A54F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192D779A1E977C53006A54F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		192D77AC1E977CD8006A54F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192D77AD1E977CD8006A54F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		192D77B11E977CD8006A54F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192D77B21E977CD8006A54F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		192D779D1E977C53006A54F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		192D779E1E977C53006A54F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		192D77A01E977C53006A54F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9055976D751DA4CB1660EBFD /* Pods-iOS-map-rotation-effect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-map-rotation-effect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-map-rotation-effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		192D77A11E977C53006A54F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2990A759D484ED0FDD32B15 /* Pods-iOS-map-rotation-effect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-map-rotation-effect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-map-rotation-effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		192D77B51E977CD8006A54F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054E706FE910ABBE1E068200 /* Pods-iOS-map-rotation-effect-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-map-rotation-effect-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-map-rotation-effect-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS-map-rotation-effect-Swift/BridgeHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		192D77B61E977CD8006A54F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3412B037B8AAD25A72D7D7 /* Pods-iOS-map-rotation-effect-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-map-rotation-effect-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-map-rotation-effect-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS-map-rotation-effect-Swift/BridgeHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		192D77C41E977CEA006A54F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-map-rotation-effectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-map-rotation-effectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-map-rotation-effect";
+			};
+			name = Debug;
+		};
+		192D77C51E977CEA006A54F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-map-rotation-effectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-map-rotation-effectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-map-rotation-effect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		192D77831E977C53006A54F6 /* Build configuration list for PBXProject "iOS-map-rotation-effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192D779D1E977C53006A54F6 /* Debug */,
+				192D779E1E977C53006A54F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		192D779F1E977C53006A54F6 /* Build configuration list for PBXNativeTarget "iOS-map-rotation-effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192D77A01E977C53006A54F6 /* Debug */,
+				192D77A11E977C53006A54F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		192D77B71E977CD8006A54F6 /* Build configuration list for PBXNativeTarget "iOS-map-rotation-effect-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192D77B51E977CD8006A54F6 /* Debug */,
+				192D77B61E977CD8006A54F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		192D77C31E977CEA006A54F6 /* Build configuration list for PBXNativeTarget "iOS-map-rotation-effectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192D77C41E977CEA006A54F6 /* Debug */,
+				192D77C51E977CEA006A54F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 192D77801E977C53006A54F6 /* Project object */;
+}
